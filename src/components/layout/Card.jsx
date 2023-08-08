@@ -19,7 +19,7 @@ function Card(props) {
                 <p>{Year} {Type}</p>
                 </div>
                 <div class="card-action">
-                <a href="!#">{imdbID}</a>
+                <a href={'https://www.imdb.com/title/'+imdbID} target="blank">imdbID.com</a>
                 </div>
             </div>
             </div>
